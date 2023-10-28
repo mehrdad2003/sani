@@ -1,17 +1,22 @@
 const puppeteer = require('puppeteer');
-
+require('dotenv').config();
 
 (async () => {
   // OPTION 1 - Launch new.
  
   const browser = await puppeteer.launch({
-    headless: true, 
+    headless: "new", 
     args: [
       "--disable-setuid-sandbox",
       "--no-sandbox",
       "--single-process",
       "--no-zygote",
-    ],
+    ]
+    ,
+    executablePath:
+      process.env.NODE_ENV === "production"
+        ? process.env.PUPPETEER_EXECUTABLE_PATH
+        : puppeteer.executablePath(),
     // Puppeteer is 'headless' by default.
   });
   
