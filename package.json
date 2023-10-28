@@ -1,0 +1,25 @@
+{
+  "name": "ine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mehrdad2003/sisi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mehrdad2003/sisi/issues"
+  },
+  "homepage": "https://github.com/mehrdad2003/sisi#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "puppeteer": "^21.4.1"
+  }
+}
