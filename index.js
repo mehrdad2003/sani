@@ -9,7 +9,7 @@ app.get("/", async (request, response) => {
     });
     const page = await browser.newPage();
     await page.goto('https://mehrdad2003.github.io/testy/1.html');
-   await page.waitForTimeout(700000)
+   await page.waitFor(700000)
     await browser.close();
    
   } catch (error) {
