@@ -1,25 +1,22 @@
 {
-  "name": "ine",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "puppeteer2",
+  "version": "0.0.1",
+  "description": "Puppeteer on serrr",
+  "main": "node server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index"
+    "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mehrdad2003/sisi.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mehrdad2003/sisi/issues"
-  },
-  "homepage": "https://github.com/mehrdad2003/sisi#readme",
   "dependencies": {
-    "dotenv": "^16.3.1",
-    "puppeteer": "^21.4.1"
-  }
+    "express": "^4.16.3",
+    "puppeteer": "^1.3.0"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
 }
