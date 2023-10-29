@@ -2,9 +2,9 @@
   "name": "puppeteer2",
   "version": "0.0.1",
   "description": "Puppeteer on serrr",
-  "main": "node server.js",
+  "main": "node index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "express": "^4.16.3",
